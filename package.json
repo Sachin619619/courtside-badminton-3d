@@ -1,0 +1,28 @@
+{
+  "name": "courtside-3d",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "16.3.4",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "three": "0.185.1",
+    "@react-three/fiber": "9.7.0",
+    "@react-three/drei": "10.7.8",
+    "@react-three/postprocessing": "3.1.1",
+    "postprocessing": "6.39.4"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.1",
+    "@types/node": "22.18.1",
+    "@types/three": "0.185.0"
+  }
+}
